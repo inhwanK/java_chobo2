@@ -1,0 +1,5 @@
+#Properties Examples
+#Thu Feb 18 12:49:45 KST 2021
+user=user_mysql_study
+password=rootroot
+url=jdbc\:mysql\://localhost\:3306/mysql_study?useSSL\=false
