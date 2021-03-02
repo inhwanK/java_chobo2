@@ -5,12 +5,13 @@ package java_chobo2.ch14;
 interface MyFunction{
 	void myMethod();
 }
-public class LamdoEx03 {
+public class LamdaEx03 {
 
 	public static void main(String[] args) {
 		MyFunction f = ()->System.out.println("myMethod()");
 		aMethod(f);
 
+		aMethod(()-> System.out.println("myMethod()"));
 	}
 
 	public static void aMethod(MyFunction f) {
