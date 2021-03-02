@@ -14,8 +14,8 @@ public class TriFunctionEX {
 		};
 
 		System.out.println(tri.apply(10, 10, 10));
-		TriFunction<Integer, Integer, Integer> tri01 = (t, u, v) -> t * u * v;
-		System.out.println(tri101.apply(2,2,2));
+//		TriFunction<Integer, Integer, Integer> tri01 = (t, u, v) -> t * u * v;
+//		System.out.println(tri101.apply(2,2,2));
 
 	}
 
